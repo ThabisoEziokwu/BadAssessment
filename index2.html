@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Movix</h1>
+        <input type="text" placeholder="What do you want to watch?">
+        <div class="user-info">
+            <span>Hi, Fullname</span>
+        </div>
+    </header>
+
+    <section id="auth">
+        <div id="register" class="auth-form">
+            <img src="Logo.png" alt="Logo">
+            <h2>Hi, Welcome</h2>
+            <p>Please sign-in to your account and start your experience</p>
+            <form id="registerForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">REGISTER</button>
+            </form>
+            <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+        </div>
+        <div id="login" class="auth-form">
+            <img src="logo.png" alt="Logo">
+            <h2>Hi, Welcome</h2>
+            <p>Please sign-up to start your experience</p>
+            <form id="loginForm">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">LOGIN</button>
+            </form>
+            <p>Don't have an account? <a href="#" id="show-register">Register</a></p>
+        </div>
+    </section>
+
+    <main>
+        <section class="hero">
+            <img src="Main Poster.png" alt="John Wick 3: Parabellum">
+            <img src="Description Box.png" alt="overlay Image">
+                <button>WATCH TRAILER</button>
+            </div>
+        </section>
+        <section class="movies">
+            <h2>Featured Movie</h2>
+            <div class="movie-list">
+                
+                <div class="movie-item">
+                    <img src="StrangerThings.png" alt="Stranger Things">
+                    <p>USA, 2016 - Current</p>
+                    <h3>Stranger Things</h3>
+                    <p>Action, Adventure, Horror</p>
+                    <p><img src="iMDB.png" alt=""> Rating: <img src="PngItem_1381056 1.png" alt=""> 86.0/100</p>
+                </div>
+
+                <div class="movie-item">
+                    <img src="BatmanBegins.png" alt="Batman Begins">
+                    <p>USA, 2005</p>
+                    <h3>Batman Begins</h3>
+                    <p>Action, Adventure</p>
+                    <p><img src="iMDB.png" alt=""> Rating: <img src="PngItem_1381056 1.png" alt=""> 82.0/100</p>
+                </div>
+
+                <div class="movie-item">
+                    <img src="SpiderMan.png" alt="Spider Man">
+                    <p>USA, 2018</p>
+                    <h3>Spider Man</h3>
+                    <p>Animation, Action, Adventure</p>
+                    <p><img src="iMDB.png" alt=""> Rating: <img src="PngItem_1381056 1.png" alt=""> 84.0/100</p>
+                </div>
+
+                <div class="movie-item">
+                    <img src="Dunkirk.png" alt="Dunkirk">
+                    <p>USA, 2017</p>
+                    <h3>Dunkirk</h3>
+                    <p>Action, Drama, History</p>
+                    <p><img src="iMDB.png" alt=""> Rating: <img src="PngItem_1381056 1.png" alt=""> 78.0/100</p>
+                </div>
+        </section>
+
+        <section class="movies">
+            <h2>New Arrivals</h2>
+            <div class="movie-list">
+                <div class="movie-item">
+                    <img src="Poster.png" alt="Dune">
+                    <p>USA, 2024</p>
+                    <h3>Dune</h3>
+                    <p>Action, Adventure, Drama</p>
+                    <p><img src="iMDB.png" alt=""> Rating: <img src="PngItem_1381056 1.png" alt=""> 84.0/100</p>
+                </div>
+
+                <div class="movie-item">
+                    <img src="JamesBond.png" alt="No Time To Die">
+                    <p>USA, 2021</p>
+                    <h3>No Time To Die</h3>
+                    <p>Action, Adventure, Thriller</p>
+                    <p><img src="iMDB.png" alt=""> Rating: <img src="PngItem_1381056 1.png" alt=""> 76.0/100</p>
+                </div>
+
+                <div class="movie-item">
+                    <img src="ShangChi.png" alt="ShangChi">
+                    <p>USA, 2021</p>
+                    <h3>Shang-Chi and the Legend <br> of the Ten Rings</h3>
+                    <p>Action, Adventure, Fantasy</p>
+                    <p><img src="iMDB.png" alt=""> Rating: <img src="PngItem_1381056 1.png" alt=""> 79.0/100</p>
+                </div>
+
+                <div class="movie-item">
+                    <img src="DontBreathe.png" alt="Don't Breathe 2">
+                    <p>USA, 2021</p>
+                    <h3>Don't Breathe 2</h3>
+                    <p>Action, Drama, Horror</p>
+                    <p><img src="iMDB.png" alt=""> Rating: <img src="PngItem_1381056 1.png" alt=""> 61.0/100</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="movies">
+            <h2>Exclusive Videos</h2>
+            <div class="movie-list">
+                <div class="movie-item">
+                    <img src="LambTrailer.png" alt="Lamb">
+                    <h3>Lamb (2021) Trailer</h3>
+                </div>
+
+                <div class="movie-item">
+                    <img src="Thumbnails.png" alt="Jimmy Kimmel">
+                    <h3>The Suicide Squad : John Cena Interview</h3>
+                </div>
+        </section>
+
+        <section class="movies">
+            <h2>Featured Cast</h2>
+            <div class="cast">
+                <div class="featured-cast">
+                    <img src="ChloeGrace.png" alt="CGM">
+                    <h3>Chloe Grace Moretz</h3>
+                </div>
+
+                <div class="featured-cast">
+                    <img src="KeanuReeves (2).png" alt="Keanu">
+                    <h3>Keanu Reeves</h3>
+                </div>
+
+                <div class="featured-cast">
+                    <img src="RyanReynolds.png" alt="RyanReynolds">
+                    <h3>Ryan Reynolds</h3>
+                </div>
+
+                <div class="featured-cast">
+                    <img src="Timothee.png" alt="TChalamet">
+                    <h3>Timothee Chalamet</h3>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>Conditions of Use | Privacy & Policy | Press Room</p>
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
